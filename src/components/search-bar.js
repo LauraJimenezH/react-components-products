@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class SearchBar extends Component {
-  render() {
+const SearchBar = () => {
     return (
         <form className = "form">
           <input type="text" placeholder="Search..." />
@@ -13,6 +12,5 @@ class SearchBar extends Component {
         </form>
       );
   }
-}
 
 export default SearchBar
